@@ -4,19 +4,16 @@
     padding: 0;
 }
 
-/* Debug Zone*/
-.debug .col-4{ 
-    background-color: blue; 
-    height: 668px;  
-    border: dashed;
-}
-
 /* General Zone*/
 
 .container{
     max-width: 2000px;
     width: 80%;
     margin: 0 auto;
+}
+.row{
+    width: 100%;
+    margin-bottom: 3rem;
 }
 
 .col-4{
@@ -36,6 +33,14 @@ a:hover{
     display: flex;
 }
 
+.t-white{
+    color: white;
+}
+
+.s-between{
+    justify-content: space-between;
+}
+
 /* Header Zone*/
 
 header{
@@ -44,12 +49,12 @@ header{
 }
 
 nav{
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
 }
 
-#categorie>a{
+a{
     color: white;
     text-decoration: none;
 }
@@ -68,4 +73,68 @@ main{
 .preview{
     height: 90%;
     width: 100%;
+}
+
+.show{
+}
+
+.heart{
+}
+
+.heart:hover{
+    color: red;
+}
+
+.item-info{
+    position: absolute;
+    bottom: 12rem;
+}
+
+.sales{
+    background-color: red;
+    padding: 3px 5px;
+    color: white;
+}
+
+.sustainability{
+    background-color: green;
+    padding: 3px 5px;
+    color: white;
+}
+   
+.main_info{
+    margin-top: -1rem;
+}
+
+.brand{
+    font-style: italic;
+}
+
+.new_price{
+    color: red;
+}
+
+.old_price{
+    text-decoration: line-through;
+}
+
+/* Foooter Zone*/
+
+footer{
+    padding: 1rem;
+    width: 100%;
+    background-color: black;
+}
+
+.info>h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.social>h4{
+    margin-bottom: 10px;
+}
+
+.info>a{
+    color: white;
 }
